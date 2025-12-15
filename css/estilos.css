@@ -1,0 +1,267 @@
+body { background: #ddc0cb;
+background-image: url(../imagenes/fondo.jpg);
+background-attachment: fixed;
+background-position: 50% 50%;
+
+}
+.turquesita { 
+color: #cf7196;
+border: solid 3px;
+font-family: Georgia, serif;
+  padding: 30px;
+  margin: 60px;
+ background-color: #F5DCF0;
+}
+.turquesitaoscuro { color: #571E35;
+  border: solid 3px;
+padding: 30px;
+  margin: 60px;
+ background-color: #F5DCF0;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  color: #c05781;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+  border: solid 3px;
+  padding: 30px;
+  margin: 60px;
+  background-color: #F5DCF0;
+}
+a {
+  display: block;
+  text-align: center;
+}
+
+h2 {
+  font-size: 45px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.ingredientes {
+  
+  text-align: center;
+  list-style-position: inside;
+  margin: 0 auto;
+  font-size: 30px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.preparacion {
+  text-align: center;
+  list-style-position: inside;
+  font-size: 30px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.img-centro {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+p {
+  text-align: center;
+}
+
+.mapa-centro {
+  text-align: center;
+}
+
+.video-tutorial {
+  text-align: center;
+}
+
+.menu-recetas {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.menu-recetas a {
+  display: inline-block;
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.extra {
+  background-color: gray;
+  border: 2px solid black;
+  padding: 30px;
+  margin: 30px;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #ebe1e5;
+  margin-top: 70px;
+  font-size: 30px;
+}
+
+.footer img {
+width: 60px;
+margin: 10px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+
+.whatsapp{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.whatsapp img{
+  width: 60px;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.header {
+  display: flex;      
+  background-color: #ebe1e5;             
+  justify-content: space-between;   
+  align-items: center;              
+  flex-wrap: wrap;                  
+  border: 2px solid black;
+  padding: 15px;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.texto{
+   text-align: center;
+  margin: 20px 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 30px;
+}
+
+.links{
+   text-align: center;
+  margin: 20px 0;
+  font-size: 20px;
+}
+.titulo {
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.logo {
+  border: 2px solid black;
+  padding: 10px;
+  font-weight: bold;
+  width: 196px;
+}
+
+.header .redes img {
+  width: 80px;
+}
+
+.icono-twitter {
+  width: 80px;
+}
+
+.footer .redes img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  width: 300px;
+}
+
+
+
+.footer {
+  display: flex;                    
+  justify-content: space-between;    
+  align-items: flex-start;
+  flex-wrap: wrap;                
+  padding: 20px; 
+}
+
+.caja-redes{ 
+  display: inline-block;
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+
+.caja {
+  
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+  min-height: 500px;
+  font-size: 30px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  list-style-position: inside;
+  margin: 0 auto;
+}
+
+.carousel-custom {
+  width: 350px;     
+}
+
+.carousel-custom img {
+  height: 220px;   
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+.card img{
+  height: 180;
+  object-fit: cover;
+}
+
+.modo-oscuro {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.modo-oscuro a {
+  color: #721d67;
+}
+
+.modo-oscuro li {
+  color: #ffffff;
+}
+
+.modo-oscuro h1,
+.modo-oscuro h2,
+.modo-oscuro h3 {
+  color: #dacbcb;
+}
+
+.footer p{
+  text-align: center;
+  font-weight: bold;
+}
+
